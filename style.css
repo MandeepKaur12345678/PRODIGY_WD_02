@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/690/360/non_2x/modern-minimal-and-clean-white-gold-circle-background-in-3d-realistic-look-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stopwatch {
+    text-align: center;
+    background-color: rgba(107, 130, 138, 0.3);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#display {
+    padding-top: 100px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+button {
+    margin: 5px;
+    padding: 15px 15px;
+    font-size: 16px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+button:hover{
+    background-color:rgb(135, 157, 235);
+    transition: 0.4s;
+}
+#laps {
+    list-style-type: none;
+    padding: 0;
+}
